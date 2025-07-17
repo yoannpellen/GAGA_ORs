@@ -52,9 +52,7 @@ The branches will be named ‘spbranchXX’ and can be viewed using FigTree  'Br
 The original GAGA species tree is GAGA_phylogeny_dated-1.png, then you have this version to see the numbers for the internal branches GAGA_sp_tree.branch_numbers.jpg.
 
 Run generax.sh, which relies on generax.py, to prepare the files used as input by Generax.
-
-When the Generax files are created, move everything back to Hive and run generax_Hive.sh. This just runs Generax, do it from within the main working directory.
-
 When Generax is done, run mapping_table.py to build a table showing all statistics for each gene branch, and the species branch it’s mapped on.
-Hypergeometric test
+
+# Hypergeometric test
 You can run it for as many branches as you want, then all the tests in one go with hypergeometric_test.py. Within it, you can change the threshold for the pvalue from Godon.
